@@ -1,0 +1,43 @@
+    /* Type selector */
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #0044cc;
+    }
+
+    /* Class selector */
+    .highlight {
+      background-color: rgb(240, 240, 200);
+      font-weight: bold;
+    }
+
+    /* ID selector */
+    #main-title {
+      font-size: 2rem;
+      font-family: 'Segoe UI', sans-serif;
+      color: rgb(200, 0, 0);
+    }
+
+    /* Relational selector: styling a span inside a paragraph */
+    p span {
+      text-decoration: underline;
+      color: #339933;
+    }
+
+    /* Combination selector: only h2 with class "section" */
+    h2.section {
+      margin-bottom: 1.5em;
+      color: #6600cc;
+    }
+
+    /* Pseudo-class selector */
+    a:hover {
+      color: rgb(255, 100, 0);
+      text-shadow: 0.05em 0.05em 0.1em #999;
+    }
+
+    /* Attribute selector */
+    input[type="text"] {
+      padding: 0.5em;
+      border: 0.1em solid #333;
+    }

@@ -1,0 +1,29 @@
+
+/*Unerversal selector*/
+* {
+    color: #b80000;
+}
+
+body {
+    background-color: #b19d9d;
+}
+p{
+    color: rgb(62, 124, 1);
+}
+
+h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/*id selector*/
+#Header {
+    color: #000d7e;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 200%;
+}
+
+/*Class selector*/
+.info {
+    color: rgb(128, 0, 79);
+}
